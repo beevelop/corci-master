@@ -10,30 +10,6 @@ var patch = require('corci-libs').patch;
 // patch on to support binding with multiple events at once
 patch(process.EventEmitter.prototype, ["on", "addListener"]);
 
-// should be solved by yargs / need to test and remove later
-/*try {
-    process.openStdin().on('keypress', function(chunk, key) {
-        if (key && key.name === 'c' && key.ctrl) {
-            process.emit('SIGINT');
-            process.exit();
-        }
-    });
-
-    if (process.platform === 'win32') {
-        var readLine = require('readline');
-        var rl = readLine.createInterface({
-            input: process.stdin,
-            output: process.stdout
-        });
-
-        rl.on('SIGINT', function() {
-            process.emit('SIGINT');
-        });
-    }
-} catch (e) {
-    //@TODO: error-handling?
-}*/
-
 
 var conf = yargs
     .help('help')
