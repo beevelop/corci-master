@@ -1,0 +1,37 @@
+{
+  "name": "corci-master",
+  "version": "0.0.1",
+  "description": "corci-master",
+  "main": "index.js",
+  "bin": "bin/cmd.js",
+  "author": "Maik Hummel <yo@beevelop.com>",
+  "dependencies": {
+    "corci-libs": "beevelop/corci-libs",
+    "express": "^4.11.0",
+    "filesize": "^2.0.4",
+    "socket.io": "^1.2.1"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-jsdoc": "^0.6.0"
+  },
+  "scripts": {
+    "test": "grunt --verbose",
+    "cmd": "node bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beevelop/corci-master"
+  },
+  "bugs": {
+    "url": "https://github.com/beevelop/corci-master/issues"
+  },
+  "private": true,
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "build",
+    "server"
+  ]
+}
