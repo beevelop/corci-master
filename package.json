@@ -1,7 +1,6 @@
 {
   "name": "corci-master",
   "version": "0.0.1",
-  "description": "corci-master",
   "main": "index.js",
   "bin": "bin/cmd.js",
   "author": "Maik Hummel <yo@beevelop.com>",
@@ -20,18 +19,5 @@
     "test": "grunt --verbose",
     "cmd": "node bin/cmd.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/beevelop/corci-master"
-  },
-  "bugs": {
-    "url": "https://github.com/beevelop/corci-master/issues"
-  },
-  "private": true,
-  "keywords": [
-    "cordova",
-    "phonegap",
-    "build",
-    "server"
-  ]
+  "private": true
 }
