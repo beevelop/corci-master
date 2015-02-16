@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/beevelop/corci-master.svg?branch=master)](https://travis-ci.org/beevelop/corci-master)
 [![Dependency Status](https://gemnasium.com/beevelop/corci-master.svg)](https://gemnasium.com/beevelop/corci-master)
 [![Code Climate](https://codeclimate.com/github/beevelop/corci-master/badges/gpa.svg)](https://codeclimate.com/github/beevelop/corci-master)
+[![GitHub release](https://img.shields.io/github/release/beevelop/corci-master.svg?style=flat)](https://github.com/beevelop/corci-master/releases)
+[![GitHub issues](https://img.shields.io/github/issues/beevelop/corci-master.svg?style=flat)](https://github.com/beevelop/corci-master/issues)
 
 # CorCI-master
 
