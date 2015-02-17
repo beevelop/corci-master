@@ -7,7 +7,6 @@
   "dependencies": {
     "corci-libs": "beevelop/corci-libs",
     "express": "^4.11.0",
-    "filesize": "^2.0.4",
     "socket.io": "^1.2.1"
   },
   "devDependencies": {

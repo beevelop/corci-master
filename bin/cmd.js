@@ -2,14 +2,9 @@
 require('corci-libs').utils;
 
 var Common = require('corci-libs').Common;
-var extend = Common.extend;
 var yargs = Common.yargs;
 
 var Server = require('../lib/Server');
-var patch = require('corci-libs').patch;
-// patch on to support binding with multiple events at once
-patch(process.EventEmitter.prototype, ["on", "addListener"]);
-
 
 var conf = yargs
     .help('help')
