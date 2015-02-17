@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-require('corci-libs').utils;
-
 var Common = require('corci-libs').Common;
 var yargs = Common.yargs;
 
@@ -8,10 +6,11 @@ var Server = require('../lib/Server');
 
 var conf = yargs
     .help('help')
-    .version('0.0.1', 'v')
+    .version('0.1.0', 'v')
     .alias('v', 'version')
     .showHelpOnFail(true)
     .usage('Starts the corCI-Master.\nUsage: $0')
+    .config('c')
     .options('p', {
         alias: 'port',
         default: 8000,
